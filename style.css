@@ -1,8 +1,26 @@
+body {
+    display: flex;
+}
+
 .introduction {
     background-color: #1F2937;
+    display: flex;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
